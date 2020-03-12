@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Daily1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_home">خانه</string>
+    <string name="reserved">بسته های رزرو شده</string>
+    <string name="suggestion">بسته های پیشنهادی</string>
+    <string name="detail_order">سفارش</string>
+    <string name="main_pack">صبحانه شما</string>
+    <string name="main_my_pack">میز صبحانه پیشنهادی ما</string>
+    <string name="profile_usernameHint">نام کاربری</string>
+    <string name="profile_passwordHint">رمز عبور</string>
+    <string name="profile_save">دخیره</string>
+    <string name="name_pack">نام بسته</string>
+</resources>

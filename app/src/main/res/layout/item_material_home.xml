@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:background="@drawable/background_pack_home"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:padding="12dp"
+    android:id="@+id/linear_material_home">
+
+    <com.example.daily1.components.image.MyImageView
+        android:id="@+id/iv_material"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        app:viewAspectRatio="1.5"
+       />
+<!--    android:adjustViewBounds="true"-->
+    <View
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:id="@+id/tv_title_material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/gray700"
+        tools:text="name material" />
+</LinearLayout>
